@@ -1,1 +1,2 @@
 # Domdis
+Basic artificial intelligence
