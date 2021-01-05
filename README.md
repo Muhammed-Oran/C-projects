@@ -1,3 +1,3 @@
 # Domdis
-Basic artificial intelligence
+Basic artificial intelligence\n
 With ; char,scanf,printf,int,if,else.
