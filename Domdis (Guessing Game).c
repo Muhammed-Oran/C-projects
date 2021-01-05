@@ -4,7 +4,8 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-		char a[23];
+	
+	char a[23];
 	int b;
 	printf("Your Name:");
 	scanf("%s",a);
