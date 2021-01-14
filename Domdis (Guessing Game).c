@@ -21,7 +21,8 @@ int main() {
 		printf("\nThe number in my mind isn't %d         (You have %d attempts left)\n\n",b,i);
 		printf("Please Try Again:");
 		scanf("%d",&b);
-	if(i==1)
+	if(i==1) // If this line of code is not used, the program will not evaluate your final guess.So even if we guessed the number correctly, it turned output: 
+		//--Your Rights Are Over and Domdis is Very Upset Because you did'nt Guess Correctly--
 	{
 		if(b!=2)
 		{
