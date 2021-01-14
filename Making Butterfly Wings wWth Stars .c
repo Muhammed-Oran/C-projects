@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//YILDIZLARLA KELEBEK OLUÞTURMAK
+//Making Butterfly Wings wWth Stars 
 int main() {
 int i,j,k;
 
