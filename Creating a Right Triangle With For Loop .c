@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 	
 	int i,j,g;
-	printf("Giris:");
+	printf("Triangle Size:");
 	scanf("%d",&g);
 	for(i=1;i<=g;i++)
 	{
