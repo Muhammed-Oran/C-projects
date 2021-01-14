@@ -5,17 +5,17 @@
 int main() {
 int i,j,k,l;
 
-for(i=1;i<=10;i++)
+for(i=1;i<=5;i++)
 {
 	for(j=1;j<=i;j++)
 	{
 		printf("*");
 	}
-	for(k=10;k>=i;k--)
+	for(k=5;k>=i;k--)
 	{
 		printf(" ");
 	}
-	for(k=10;k>=i;k--)
+	for(k=5;k>=i;k--)
 	{
 		printf(" ");
 	}
@@ -30,9 +30,9 @@ for(i=1;i<=10;i++)
 	
 }
 
-for(i=1;i<=10;i++)
+for(i=1;i<=5;i++)
 {
-	for(j=10;j>=i;j--)
+	for(j=5;j>=i;j--)
 	{
 		printf("*");
 	}
@@ -45,7 +45,7 @@ for(i=1;i<=10;i++)
 		printf(" ");
 	}
 	
-		for(l=10;l>=i;l--)
+		for(l=5;l>=i;l--)
 		{
 				printf("*");
 		}
@@ -54,7 +54,6 @@ for(i=1;i<=10;i++)
 
 	
 }
-
 
 
 
