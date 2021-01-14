@@ -5,24 +5,24 @@
 
 int main() {
 	
-	int yildiz,bosluk,i,j,k,giris;
+	int star,space,i,j,k,enter;
 	printf("Uccgenin Boyu :");
-	scanf("%d",&giris);
+	scanf("%d",&enter);
 	yildiz =1;
-	bosluk= giris;
+	space= enter;
 	
 	for(i=1;i<=giris;i++)
 	{
-		for(j=1;j<=bosluk;j++)
+		for(j=1;j<=space;j++)
 		{
 			printf(" ");
 		}
-		for(k=1;k<=yildiz;k++)
+		for(k=1;k<=star;k++)
 		{
 			printf("*");
 		}
-		bosluk--;
-		yildiz+=2;
+		space--;
+		star+=2;
 		printf("\n");
 	}
 	
