@@ -2,36 +2,41 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+
 int s1,s2,a;
 int main() {
-	char islem;
-	printf("Birinci Sayi :");
+	
+	char Operation;
+	printf("First Number :");
 	scanf("%d",&s1);
-	printf("Ikinci Sayi :");
+	printf("Second Number :");
 	scanf("%d",&s2);
-	printf("Yapilacak Islem :");
-	scanf("%s",&islem);
-	switch(islem)
+	printf("Operation :");
+	scanf("%s",&Operation);
+	switch(Operation)
 	{
 		case '+':
 			a = s1+s2;
-			printf("Sonuc: %d",a);
+			printf("Result: %d",a);
 			break;
 			case '-':
 				a = s1-s2;
-				printf("Sonuc: %d",a);
+				printf("Result: %d",a);
 				break;
 				case '*':
 					a = s1*s2;
-					printf("Sonuc: %d",a);
+					printf("Result: %d",a);
 					break;
 					case '/':
 						a = s1/s2;
-						printf("Sonuc: %d",a);
+						printf("Result: %d",a);
 						break;
 						default:
-							printf("Girilen Islem Turu Hatali");
+							printf("The Entered Operation is Incorrect");
 
 	}
+	
+	
 	return 0;
 }
