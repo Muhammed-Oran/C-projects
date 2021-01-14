@@ -3,7 +3,7 @@
 
 //Making Butterfly Wings wWth Stars 
 int main() {
-int i,j,k;
+int i,j,k,l;
 
 for(i=1;i<=10;i++)
 {
