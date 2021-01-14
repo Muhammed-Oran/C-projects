@@ -8,13 +8,13 @@ int main(int argc, char *argv[]) {
 
 int s1,a,sayac;
 sayac=1;
-printf("Sayi Girin :");
+printf("Enter Number :");
 scanf("%d",&s1);
 for(a=1;a<=s1;a++)
 {
 	sayac = sayac*a;
 }
-printf("%d'nin faktoriyel degeri : %d ",s1,sayac);
+printf("%d! : %d ",s1,sayac);
 
 
 
