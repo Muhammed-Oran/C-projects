@@ -6,12 +6,12 @@
 int main() {
 	
 	int star,space,i,j,k,enter;
-	printf("Uccgenin Boyu :");
+	printf(" Triangle Size :");
 	scanf("%d",&enter);
-	yildiz =1;
+	star =1;
 	space= enter;
 	
-	for(i=1;i<=giris;i++)
+	for(i=1;i<=enter;i++)
 	{
 		for(j=1;j<=space;j++)
 		{
