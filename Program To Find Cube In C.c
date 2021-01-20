@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Sayinin Küpünü bulma
-int main(int argc, char *argv[]) {
+int main() {
 	int a;
-	printf("Kupu Alinacak Sayi:");
+	printf("Number:");
 	scanf("%d",&a);
 	a=a*a*a;
 	printf("%d",a);
