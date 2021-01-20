@@ -16,6 +16,6 @@ int main() {
 		}
 	}
 	
-	printf("%d",sayac);
+	printf("%d",s);
 	return 0;
 }
