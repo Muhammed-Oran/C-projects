@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Sayinin Tam bölenlerini bulan program
 int main() {
 	int i,a;
 	printf("Number:");
