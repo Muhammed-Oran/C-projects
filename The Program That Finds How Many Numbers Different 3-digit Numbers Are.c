@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 3 basamaklý rakamlarý farklý kac sayý oldugunu bulan program
+
 int main() {
 	
 	int i,b,y,o,s=0;
@@ -12,7 +12,7 @@ int main() {
 		o=(i/10)%10;
 		if(b!=o && b!=y && y!=b && y!=o )
 		{
-			s++; //Önemmli Ayrýntý
+			s++; 
 		}
 	}
 	
