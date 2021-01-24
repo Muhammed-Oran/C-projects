@@ -12,7 +12,7 @@ printf("Enter Number :");
 scanf("%d",&s1);
 for(a=1;a<=s1;a++)
 {
-	sayac = sayac*a;
+	b= b*a;
 }
 printf("%d! : %d ",s1,b);
 
