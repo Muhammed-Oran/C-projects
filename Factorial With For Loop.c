@@ -7,7 +7,7 @@ int main() {
 
 
 int s1,a,b;
-sayac=1;
+b=1;
 printf("Enter Number :");
 scanf("%d",&s1);
 for(a=1;a<=s1;a++)
