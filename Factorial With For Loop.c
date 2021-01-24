@@ -6,7 +6,7 @@
 int main() {
 
 
-int s1,a,sayac;
+int s1,a,b;
 sayac=1;
 printf("Enter Number :");
 scanf("%d",&s1);
@@ -14,7 +14,7 @@ for(a=1;a<=s1;a++)
 {
 	sayac = sayac*a;
 }
-printf("%d! : %d ",s1,sayac);
+printf("%d! : %d ",s1,b);
 
 
 
