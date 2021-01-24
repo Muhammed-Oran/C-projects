@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
 	
 int s,f,i;
-printf("Faktoriyeli Alinacak Sayi:");
+printf("Enter The Number:");
 scanf("%d",&s);
 i=1;
 f=1;
@@ -14,7 +14,7 @@ while(i<=s){
 	f=f*i;
 	i++;
 }
-printf("%d",f);
+printf("%d! = %d",s,f);
 	
 	
 	
